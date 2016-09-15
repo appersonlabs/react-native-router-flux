@@ -140,7 +140,7 @@ export class ExRouteAdapter {
             <TouchableOpacity
                 pressRetentionOffset={ExNavigatorStyles.barButtonPressRetentionOffset}
                 onPress={() => Actions.pop()}
-                style={[ExNavigatorStyles.barBackButton, styles.backButtonStyle]}>
+                style={[ExNavigatorStyles.barBackButton, this.route.props.backButtonStyle]}>
                 <BackIcon
                     style={[
             ExNavigatorStyles.barButtonIcon,
